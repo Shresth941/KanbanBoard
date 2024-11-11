@@ -1,0 +1,76 @@
+.kanban-board {
+  padding: 20px;
+}
+
+.kanban-header {
+  display: flex;
+  justify-content: flex-start; /* Align dropdown to the left */
+  margin-bottom: 20px;
+}
+
+.kanban-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.kanban-column {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.kanban-board {
+  padding: 20px;
+}
+
+.kanban-board h1 {
+  font-size: 2rem;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls select {
+  padding: 5px;
+}
+
+.kanban-board-body {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.grouped-tickets {
+  width: 30%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.grouped-tickets-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.group-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.ticket {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.ticket h4 {
+  margin: 0;
+}
+
+.ticket p {
+  margin: 5px 0;
+}

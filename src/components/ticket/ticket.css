@@ -1,0 +1,66 @@
+/* src/styles/Ticket.css */
+.ticket {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0; /* Softer border */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  font-family: 'Roboto', sans-serif; /* Cleaner font */
+  transition: transform 0.1s ease; /* Small interaction feedback */
+}
+
+.ticket:hover {
+  transform: scale(1.02); /* Slightly enlarges on hover */
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.ticket-id {
+  font-size: 12px;
+  font-weight: bold;
+  color: #6c757d;
+}
+
+.ticket-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e0e0e0;
+}
+
+.ticket-title h3 {
+  font-size: 16px;
+  color: #212529;
+  margin: 0;
+  font-weight: 600;
+}
+
+.ticket-tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.ticket-priority,
+.ticket-status {
+  font-size: 12px;
+  color: #495057;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.ticket-priority {
+  background-color: #ffefc1; /* Example color for priority tag */
+}
+
+.ticket-status {
+  background-color: #d4edda; /* Example color for status tag */
+}
